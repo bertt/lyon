@@ -36,7 +36,7 @@
     var terrainProvider = new Cesium.CesiumTerrainProvider({
        url : './tiles'
     });
-    // viewer.scene.terrainProvider = terrainProvider;
+    viewer.scene.terrainProvider = terrainProvider;
     viewer.scene.globe.enableLighting = true;
     viewer.scene.globe.terrainExaggeration = 1;
     viewer.scene.globe.depthTestAgainstTerrain=true;
